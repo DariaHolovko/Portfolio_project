@@ -1,4 +1,20 @@
+.page-hero {
+  background-image: url("img/background2.jpg");
+  background-size: 100%;
+  padding: 50px 25px;
+  color: white;
+}
+h2,
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+.description,
 h1 {
-  font-family: "Permanent Marker", cursive;
-  background-color: rgb(255, 196, 0);
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 86px;
+  line-height: 50px;
 }
