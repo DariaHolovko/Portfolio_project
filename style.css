@@ -77,4 +77,21 @@ img {
   h1 {
     font-size: 48px;
   }
+  .about-section {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  .about-page-image {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.about-section {
+  padding: 40px;
+}
+.about-page-subheading {
+  font-size: 25px;
+  font-style: bold italic;
+  font-weight: 700px;
 }
