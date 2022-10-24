@@ -2,8 +2,6 @@
   .project-description {
     text-align: center;
   }
-}
-@media (max-width: 576) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
