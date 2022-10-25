@@ -19,7 +19,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 60px 30px;
+  padding: 10px 30px 60px 30px;
   color: black;
   text-align: center;
 }
@@ -67,13 +67,13 @@ h1 {
 .btn-branding-outline:hover {
   color: var(--primary-color);
 }
-@media (max-width: 900px) {
+@media (max-width: 760px) {
   .project-description {
     text-align: center;
     padding: 10px;
   }
   h1 {
-    font-size: 48px;
+    font-size: 45px;
   }
   .about-section {
     text-align: center;
@@ -88,9 +88,24 @@ h1 {
     text-align: center;
     line-height: normal;
   }
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  nav li {
+    line-height: 20px;
+    font-size: 14px;
+  }
 }
 .about-section {
-  padding: 40px;
+  padding: 30px;
+}
+.about-page-heading {
+  line-height: 70px;
 }
 .about-page-subheading {
   font-size: 25px;
@@ -126,4 +141,10 @@ a {
 a:hover {
   color: var(--primary-color);
   text-decoration: underline;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 42px;
+  margin-left: 15px;
 }
